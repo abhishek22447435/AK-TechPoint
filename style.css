@@ -1,0 +1,85 @@
+.f1heading{
+ color: rgb(23, 150, 51);
+ font-weight: bolder;
+ font-size: 50px;   
+}
+
+.f1{
+width: 100%;    
+display: flex;
+justify-content: space-between;
+}
+.f1 .f1a{
+width: 45%;
+border: 2px solid rgb(131, 127, 127);
+align-items: center; 
+text-align: center;
+padding: 100px;
+background-color: #fff8ec;
+}
+
+.f1 .f1b{
+width: 45%;  
+border: 2px solid black; 
+align-items: center; 
+text-align: center;
+font-size: 30px;
+background-color: #fff8ec; 
+}
+.f1heading{
+text-align: center;
+margin: 60px;  
+ }
+
+ 
+ .thirdsection {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.thirdsection a{
+    font-size: 13px;
+}
+.thirdsection .face img {
+    width: 60px;
+    height: 60px;
+}
+.thirdsection .twi img {
+    width: 60px;
+    height: 60px;
+}
+.thirdsection .insta img{
+    width: 60px;
+    height: 60px;
+}
+.thirdsection .whatsapp img{
+    width: 60px;
+    height: 60px;      
+}
+.details {
+    text-align: center;
+}
+
+@media (max-width:600px) and (min-width:280px){
+
+    .thirdsection a{
+        font-size: 10px;
+    }
+    .thirdsection .face img {
+        width: 30px;
+        height: 30px;
+    }
+    .thirdsection .twi img {
+        width: 30px;
+        height: 30px;
+    }
+    .thirdsection .insta img{
+        width: 30px;
+        height: 30px;
+    }
+    .thirdsection .whatsapp img{
+        width: 30px;
+        height: 30px;      
+    }
+}
+
